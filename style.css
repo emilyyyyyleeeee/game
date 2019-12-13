@@ -40,7 +40,7 @@
 
 .container {
     height: 100vh;
-    background-image: url('images/city.gif');
+    background-image: url('city.gif');
     background-size: cover;
     /* background-position-y: 70%; */
     display: flex;
