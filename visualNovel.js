@@ -261,7 +261,7 @@ document.querySelector(".oof-btn").addEventListener("click", function(){
   romantic.pause();
   darkness.play();
   // 1. Write the intro to our STORY
-  document.querySelector(".story").innerHTML = "I can't believe that you backed out at the last moment..<br><br>Oof Another lonely holiday.<img src = 'ded.gif'><br><br><strong>GAME OVER</strong>";
+  document.querySelector(".story").innerHTML = "I can't believe that you backed out at the last moment..<br><br>Oof Another lonely holiday.<br><br><img src = 'ded.gif'><br><br><strong>GAME OVER</strong>";
 
   // 2. Remove Button
   document.querySelector(".christmas-btn").classList.add("invisible");
@@ -285,6 +285,7 @@ document.querySelector(".christmas-btn").addEventListener("click", function(){
 
 /* PSYCH THE END */
 document.querySelector(".PSYCH-btn").addEventListener("click", function(){
+  yay.pause();
   boom.play();
   // 1. Write the intro to our STORY
   document.querySelector(".story").innerHTML = "I wish you all your dreams come true.<br><br>JK<br><br><img src = 'psych.gif'><br><br>THE END.";
