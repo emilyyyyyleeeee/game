@@ -77,7 +77,7 @@ document.querySelector(".DAY-btn").addEventListener("click", function(){
   derp.pause();
   huh.play();
   // 1. Write the intro to our STORY
-  document.querySelector(".story").innerHTML = "It's 8am in the morning, what do you want to do today?<br><br><img src ='morning.gif'>";
+ document.querySelector(".story").innerHTML = "It's 8am in the morning, what do you want to do today?<br><br><img src ='morning.gif'>";
 
   // 2. Remove Button
   document.querySelector(".DAY-btn").classList.add("invisible");
